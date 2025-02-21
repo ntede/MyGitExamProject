@@ -3,10 +3,10 @@ name: Affichage sur Push et Pull Request
 on:
   push:
     branches:
-      - feature/about  
+      - master 
   pull_request:
     branches:
-      - feature/about 
+      - master 
 
 jobs:
   affichage:
